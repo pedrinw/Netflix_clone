@@ -8,14 +8,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* IMPORT DA FONTE */
 
-:root{
-  --fonte: 'Bebas Neue', cursive;
-}
-
 .imagem{
   background-image: url('imagens/netflix-ori.jpg');
   width: 100vw;
   height: 100vh;
+}
+.imagem > a > img {
+  width: 165px;
+  height: 40px;
+  margin-left:5%;
+  margin-top: 1.2%;
 }
 .logo{
   position: absolute;
@@ -31,9 +33,9 @@
 
 .login{
   position: absolute;
-  width: 28.1em;
-  height: 37.25em;
-  background-color: #fff;
+  width: 30.1em;
+  height: 35.25em;
+  background-color: #000000bf;
   bottom: 10%;
   left: 35%;
   top: 11%;
@@ -49,11 +51,14 @@
 }
 /* TÍTULO ENTRAR */
 .entrar{
-  font: 32px bold Arial, Helvetica, sans-serif;
-  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Arial;
+  color: #FFFFFF;
   margin-top: 14%;
-  margin-left: 15%;
+  margin-left: 17%;
 }
+
 input[type="text"], input[type="password"]{
   width: 314px;
   height: 50px;
@@ -69,7 +74,10 @@ input[type="button"]{
   background-color: red;
   color: #fff;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: Arial;
+  line-height: 0.1px;
+  font-weight: bold;
   
 }
 /* EMBAIXO DE BOTÃO */
@@ -80,11 +88,64 @@ input[type="button"]{
   
 }
 input[type="checkbox"]{
-  margin-right: 1%;
+  margin-left: 2.6%;
 }
 label{
-  margin-right: 17%;
+  margin-left: 1%;
+  margin-right: 11.2%;
+  font-family: arial;
+  font-weight: 500;
+  font-size: 15px;
+  color: #B3B3B3;
 }
 .ajuda > p > a{
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Arial;
+  font-weight: medium;
+  font-size: 16px;
+  color: #B3B3B3;
+}
+
+/* FINAL ( END ) */
+.box{
+  display: flex;
+  margin-left: 15.2%;
+  margin-top: 16%;
+}
+.novo{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  font-family: Arial;
+  font-size: 16px;
+  color: #8C8C8C;
+  font-weight: 500;
+  
+}
+.assine{
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.texto{
+  text-align: left;
+  margin-left: 17.7%;
+  width: 314px;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 13px;
+  color: #8C8C8C;
+  
+ 
+}
+.texto > a{
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 13px;
+  color: #0071EB;
   text-decoration: none;
 }
